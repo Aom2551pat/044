@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
-        form { margin-top: 20px; padding: 20px; border: 1px solid #cccccc; border-radius: 8px; max-width: 400px; background-color: #d80d0d; }
+        form { margin-top: 20px; padding: 20px; border: 1px solid #11440a; border-radius: 8px; max-width: 400px; background-color: #55678d; }
         label { display: block; margin-bottom: 8px; font-weight: bold; }
-        input[type="date"] { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
-        button { background-color: #944d40; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
-        button:hover { background-color: #6c4591; }
+        input[type="date"] { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #b2a4e6; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #28a745; color: rgb(104, 152, 216); padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #9ca2da; }
     </style>
 </head>
 <body>
@@ -17,6 +17,11 @@
     <form>
         <label for="birthdate">วัน/เดือน/ปี เกิด:</label>
         <input type="date" id="birthdate" name="birthdate">
+        <button type="submit">ส่งข้อมูล</button>
+    </form>
+    <form>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
         <button type="submit">ส่งข้อมูล</button>
     </form>
     <p>ลองคลิกที่ช่องวันที่ในเบราว์เซอร์ของคุณ</p>
